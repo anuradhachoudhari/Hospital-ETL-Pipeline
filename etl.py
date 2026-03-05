@@ -1,10 +1,10 @@
 import pandas as pd
 import mysql.connector
 
-# Read Excel file
+
 df = pd.read_excel("hospital_data.xlsx")
 
-# Connect to MySQL
+
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
